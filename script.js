@@ -1,8 +1,5 @@
-import "./styles.css";
 import { apidata } from "./data.js";
 document.getElementById("Send").onclick = () => {
-  //alert("Mail sent");
-  //document.getElementById("app").innerHTML = "Hei" + new Date();
   setInterval(() => {
     document.getElementsByTagName("body")[0].style =
       "background-color:" + getRandomColor();
@@ -299,11 +296,3 @@ var api = {
   }
 };
 
-/* Testing */
-
-/* import av API'en */
-// const url =
-//   "https://api.nasa.gov/insight_weather/?api_key=DEMO_KEY&feedtype=json&ver=1.0";
-/*const response = fetch(url).then((data) =>
-  data.json().then((json) => console.log(json))
-);*/
