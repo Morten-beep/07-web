@@ -1,0 +1,28 @@
+/*Body css*/
+body h1 {
+    font-family: sans-serif;
+    font-size: 28;
+    font: color red;
+  }
+  
+  body img {
+    height: 350px;
+    border-radius: 10%;
+    /*transition: 500ms;*/
+  }
+  
+  body {
+    background-color: grey;
+    text-align: center;
+  }
+  
+  /*#app {
+    position: absolute;
+    top: 0;
+    right: 0;
+  } */
+  
+  season {
+    font-size: 30;
+  }
+  
